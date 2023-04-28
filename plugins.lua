@@ -15,7 +15,6 @@ return require("packer").startup(function()
         "hoob3rt/lualine.nvim",
         requires = {"kyazdani42/nvim-web-devicons", opt = true}
     }
-    use "ryanoasis/vim-devicons"
 
     use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
     use "hrsh7th/nvim-compe"
@@ -38,6 +37,7 @@ return require("packer").startup(function()
     use {"lewis6991/gitsigns.nvim", requires = {{"nvim-lua/plenary.nvim"}}}
 
     use "kdheepak/lazygit.nvim"
+    use "christoomey/vim-tmux-navigator"
 
     use({
         "iamcco/markdown-preview.nvim",

@@ -25,7 +25,7 @@ vim.api.nvim_set_keymap("i", "jj", "<ESC>", {noremap = true, silent = true})
 
 -- Undo file
 vim.api.nvim_set_option("undofile", true)
-vim.api.nvim_set_option("undodir", "/home/bendik/.config/nvim/undodir")
+vim.api.nvim_set_option("undodir", "/Users/bendike/.config/nvim/undodir")
 
 --  Splits open at the bottom and right, which is non-retarded, unlike vim defaults.
 vim.o.splitright = true
